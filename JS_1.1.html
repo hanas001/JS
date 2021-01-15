@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+// Пример замены подстроки в строке
+let example = "JS - это игрушечный язык программирования.";
+let exampleFormatted = example.replace("игрушечный", "матёрый");
+
+document.getElementById("app").innerHTML +=
+  example + "<br>" + exampleFormatted + "<br>";
+
+// Задание: Заменить слова 'блин' и 'ваще' с помощью метода replace
+// и вывести отформатированное сообщение на странице.
+let message = `Привет блин! Как ваще дела? Не знаю что еще написать.`;
+let messageFormatted = message.replace("блин", "френд").replace("ваще", "твои");
+
+
+document.getElementById("app").innerHTML += message + "<br>" + messageFormatted + "<br>";
+
+</script>
+
+</html>

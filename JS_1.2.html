@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+// Серж
+function hello() {
+  return "Hello,";
+}
+
+// Женек
+function pow (one, two){
+    let g = one**two;
+    //g =   Math.pow(one, two)
+    return g
+}
+
+function printStrings (fn1, fn2){
+  let str_1 = fn1();
+ 	let str_2 = fn2();
+
+  return str_1 + " " + str_2 + "!";
+}
+
+function mir (){
+	return "Мир"
+}
+let result = printStrings( hello, mir);
+console.log(result);
+</script>
+
+</body>
+</html>
